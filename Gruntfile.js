@@ -6,7 +6,8 @@ module.exports = function (grunt) {
             options: {
                 force: true,
                 'tag-name-lowercase': false,
-                'disable-inline-style': true
+                'disable-inline-style': true,
+                'indent-width': 2
             },
             src: [
                 'src/*.html'
